@@ -76,3 +76,15 @@ Metrics :
 
 SMOTE shows higher precision at comparable recall levels, confirming its superiority on this dataset.
 
+### Final Conclusion: 
+- SMOTE + XGBoost yielded the best fraud detection performance.
+- Undersampling gave very high recall but unacceptably low precision.
+- GridSearchCV helped fine-tune XGBoost for best results.
+
+#### Requirements 
+pip install numpy pandas matplotlib seaborn scikit-learn xgboost imbalanced-learn
+
+#### Author
+Ankit Soni
+B.Tech CSE, IIT Bhilai
+Data Science & ML Projects
