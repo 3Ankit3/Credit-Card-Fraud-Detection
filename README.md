@@ -63,6 +63,16 @@ Best Model :
 
 ### Evaluation Metrics: 
 XGBoost + SMOTE Results:
-   Metric |  Value
-- Precision | 0.79
+
+Metrics :
+- Precision = 0.79
+- Recall = 0.86
+- F1-Score = 0.82
+- ROC-AUC = 0.98
+
+### PR and ROC Curves: 
+
+![image](https://github.com/user-attachments/assets/448ac0ce-ca88-4da9-9322-3bf861c5e393)
+
+SMOTE shows higher precision at comparable recall levels, confirming its superiority on this dataset.
 
